@@ -8,12 +8,14 @@ public class LimiteVelocidad {
 		int velocidad = 10; //Km/H
 		int limitevelocidad = 100; 
 		
-//		if (velocidad > limitevelocidad) {
-//			
-//			System.out.println("MULTA");
-//		} else {
-//			System.out.println("El coche va en la velocidad adecuada");
-//		}
+		//IF & IF-ELSE
+		
+		if (velocidad > limitevelocidad) {
+			
+			System.out.println("MULTA");
+		} else {
+			System.out.println("El coche va en la velocidad adecuada");
+		}
 
 		// IF ANIDADO
 		
@@ -34,6 +36,36 @@ public class LimiteVelocidad {
 		} else {
 			System.out.println("El coche va en una calle y va a una velocidad permitida");
 		}
-	}
+		
+		//switch case//
+		
+		int Temperatura = 33;
+		
+		switch (Temperatura) {
+		case 5: 
+			System.out.println("Mucho frio");
+			break;
+			
+		case 10: 
+			System.out.println("Frio");
+			break;	
+			
+		case 20:
+		case 25:	
+			System.out.println("Templado");
+			break;
+			
+		case 35: 
+			System.out.println("Mucho calor");
+			break;
+			
+		default:
+			System.out.println("No encontro relacion de temperatura");
+			break;
+			
+		}
+		
+		
+	}	
 
 }
