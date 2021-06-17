@@ -7,7 +7,7 @@ public class Multiplicacion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double z = MultiplicacionNumeros (3.4,8.6);
-		ImprimirMultiplicacion(z);
+		ImprimirMultiplicacion(z);	
 		
 	}
 		public static double MultiplicacionNumeros(double x, double y) {
@@ -19,7 +19,7 @@ public class Multiplicacion {
 			
 Coche Coche = new Coche();
 			
-System.out.println("El valor de la suma es: "+Coche.Operador(1,5,7));
+System.out.println("El valor de la suma es: "+Coche.Operador(81));
 				
 
 	}
